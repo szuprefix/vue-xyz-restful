@@ -1,10 +1,10 @@
 /**
  * Created by denishuang on 2017/8/2.
  */
-import {Register} from 'Register'
-import axios from '../../configs/axios'
+import Register from 'Register'
+import axios from 'client'
 import Qs from 'qs'
-// import store from '../store'
+
 export function joinErrors(errors) {
     let es = {}
     for (let n in errors) {
